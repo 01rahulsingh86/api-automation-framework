@@ -27,9 +27,6 @@ com.framework.api/
 ├── log4j2.xml # Logging configuration
 └── pom.xml # Project dependencies and plugins
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -98,9 +95,7 @@ Assertions verify HTTP status codes, payload data, and headers
 
 🧬 Model Classes
 Located in models/
-
 Represent request and response bodies
-
 Follows JavaBeans convention (getters, setters, @JsonProperty as needed)
 
 🏗️ Build & Run
@@ -110,14 +105,10 @@ Java 1.8 or above
 Maven 3.6+
 
 🧪 Run Tests
-bash
-Copy
-Edit
+
 mvn clean test -Dsuite=testng.xml
 🔒 Logging Example (from log4j2.xml)
 xml
-Copy
-Edit
 <Configuration status="WARN">
   <Appenders>
     <Console name="Console" target="SYSTEM_OUT">
@@ -149,11 +140,6 @@ Rahul Singh
 
 📜 License
 MIT
-
-yaml
-Copy
-Edit
-
 ---
 
 Would you like me to:
