@@ -1,0 +1,112 @@
+2025-05-29 15:02:07 [main] INFO  com.api.listeners.TestListener - Test StartedloginTestAuth
+2025-05-29 15:02:07 [main] INFO  com.api.listeners.TestListener - DescriptionVerify if login API is working
+2025-05-29 15:02:11 [main] INFO  com.api.listeners.TestListener - PassedloginTestAuth
+2025-05-29 15:02:11 [main] INFO  com.api.listeners.TestListener - DescriptionVerify if login API is working
+2025-05-29 15:23:47 [main] INFO  com.api.listeners.TestListener - Test StartedloginTestAuth
+2025-05-29 15:23:47 [main] INFO  com.api.listeners.TestListener - DescriptionVerify if login API is working
+2025-05-29 15:23:52 [main] INFO  com.api.filters.LoggingFilters - Request Header Server=nginx
+Date=Thu, 29 May 2025 19:23:44 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=930
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-DNS-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+X-Powered-By=Cats on Keyboards
+X-RateLimit-Limit=100
+X-RateLimit-Remaining=99
+X-RateLimit-Reset=1748546628
+Set-Cookie=accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NDg1NDY2MjQsImV4cCI6MTc0ODU1MDIyNH0.5ENTfwbFv2OMK1ssYH-_EvMDKIfz13XVymVSej4lgCM; Max-Age=3600; Path=/; Expires=Thu, 29 May 2025 20:23:44 GMT; HttpOnly; Secure
+Set-Cookie=refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NDg1NDY2MjQsImV4cCI6MTc1MTEzODYyNH0.1A3ZdG6bz99D2ajBUTye7MM3tfRLGmY1orNOdFtFcCE; Max-Age=3600; Path=/; Expires=Thu, 29 May 2025 20:23:44 GMT; HttpOnly; Secure
+ETag=W/"3a2-ZzgaYM3/GpNVqly3Ty1JLKnqfNs"
+Vary=Accept-Encoding
+2025-05-29 15:23:52 [main] INFO  com.api.filters.LoggingFilters - Request Payload {
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NDg1NDY2MjQsImV4cCI6MTc0ODU1MDIyNH0.5ENTfwbFv2OMK1ssYH-_EvMDKIfz13XVymVSej4lgCM",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NDg1NDY2MjQsImV4cCI6MTc1MTEzODYyNH0.1A3ZdG6bz99D2ajBUTye7MM3tfRLGmY1orNOdFtFcCE",
+    "id": 1,
+    "username": "emilys",
+    "email": "emily.johnson@x.dummyjson.com",
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "gender": "female",
+    "image": "https://dummyjson.com/icon/emilys/128"
+}
+2025-05-29 15:23:52 [main] INFO  com.api.filters.LoggingFilters - Status Code 200
+2025-05-29 15:23:52 [main] INFO  com.api.listeners.TestListener - PassedloginTestAuth
+2025-05-29 15:23:52 [main] INFO  com.api.listeners.TestListener - DescriptionVerify if login API is working
+2025-05-29 15:48:46 [main] INFO  com.api.listeners.TestListener - Test StartedloginTestAuth
+2025-05-29 15:48:46 [main] INFO  com.api.listeners.TestListener - DescriptionVerify if login API is working
+2025-05-29 15:48:49 [main] INFO  com.api.filters.LoggingFilters - Request Header Server=nginx
+Date=Thu, 29 May 2025 19:48:49 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=930
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-DNS-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+X-Powered-By=Cats on Keyboards
+X-RateLimit-Limit=100
+X-RateLimit-Remaining=99
+X-RateLimit-Reset=1748548136
+Set-Cookie=accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NDg1NDgxMjksImV4cCI6MTc0ODU1MTcyOX0.oQkNFQTFCFyyoFOelNWJ33EAHIZqGJ-spJduhbmh7M0; Max-Age=3600; Path=/; Expires=Thu, 29 May 2025 20:48:49 GMT; HttpOnly; Secure
+Set-Cookie=refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NDg1NDgxMjksImV4cCI6MTc1MTE0MDEyOX0.ZAlZ9Rc07IqyeSfKjyScSPEArOHUTg1woBxIr0YkPjo; Max-Age=3600; Path=/; Expires=Thu, 29 May 2025 20:48:49 GMT; HttpOnly; Secure
+ETag=W/"3a2-4Zkw1XWBgm04zev4HJ86M3I/GvI"
+Vary=Accept-Encoding
+2025-05-29 15:48:49 [main] INFO  com.api.filters.LoggingFilters - Request Payload {
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NDg1NDgxMjksImV4cCI6MTc0ODU1MTcyOX0.oQkNFQTFCFyyoFOelNWJ33EAHIZqGJ-spJduhbmh7M0",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NDg1NDgxMjksImV4cCI6MTc1MTE0MDEyOX0.ZAlZ9Rc07IqyeSfKjyScSPEArOHUTg1woBxIr0YkPjo",
+    "id": 1,
+    "username": "emilys",
+    "email": "emily.johnson@x.dummyjson.com",
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "gender": "female",
+    "image": "https://dummyjson.com/icon/emilys/128"
+}
+2025-05-29 15:48:49 [main] INFO  com.api.filters.LoggingFilters - Status Code 200
+2025-05-29 15:48:49 [main] INFO  com.api.listeners.TestListener - PassedloginTestAuth
+2025-05-29 15:48:49 [main] INFO  com.api.listeners.TestListener - DescriptionVerify if login API is working
+2025-05-29 15:49:34 [main] INFO  com.api.listeners.TestListener - Test StartedloginTestAuth
+2025-05-29 15:49:34 [main] INFO  com.api.listeners.TestListener - DescriptionVerify if login API is working
+2025-05-29 15:49:37 [main] INFO  com.api.filters.LoggingFilters - Request Header Server=nginx
+Date=Thu, 29 May 2025 19:49:37 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=930
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-DNS-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+X-Powered-By=Cats on Keyboards
+X-RateLimit-Limit=100
+X-RateLimit-Remaining=99
+X-RateLimit-Reset=1748548186
+Set-Cookie=accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NDg1NDgxNzcsImV4cCI6MTc0ODU1MTc3N30.JIVFx6iqMaW09jFhc8UE11jBrUKX02RtdvWFJd9KbHU; Max-Age=3600; Path=/; Expires=Thu, 29 May 2025 20:49:37 GMT; HttpOnly; Secure
+Set-Cookie=refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NDg1NDgxNzcsImV4cCI6MTc1MTE0MDE3N30.bASlqPCNKOD3gSDwERwozVptsiPi6wcRThyC4Ux-RBQ; Max-Age=3600; Path=/; Expires=Thu, 29 May 2025 20:49:37 GMT; HttpOnly; Secure
+ETag=W/"3a2-E2/+JhgdTO7RTHxhpITZ0N8cCDw"
+Vary=Accept-Encoding
+2025-05-29 15:49:37 [main] INFO  com.api.filters.LoggingFilters - Request Payload {
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NDg1NDgxNzcsImV4cCI6MTc0ODU1MTc3N30.JIVFx6iqMaW09jFhc8UE11jBrUKX02RtdvWFJd9KbHU",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NDg1NDgxNzcsImV4cCI6MTc1MTE0MDE3N30.bASlqPCNKOD3gSDwERwozVptsiPi6wcRThyC4Ux-RBQ",
+    "id": 1,
+    "username": "emilys",
+    "email": "emily.johnson@x.dummyjson.com",
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "gender": "female",
+    "image": "https://dummyjson.com/icon/emilys/128"
+}
+2025-05-29 15:49:37 [main] INFO  com.api.filters.LoggingFilters - Status Code 200
+2025-05-29 15:49:37 [main] INFO  com.api.listeners.TestListener - PassedloginTestAuth
+2025-05-29 15:49:37 [main] INFO  com.api.listeners.TestListener - DescriptionVerify if login API is working

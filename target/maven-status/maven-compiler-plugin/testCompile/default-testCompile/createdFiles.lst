@@ -1,0 +1,12 @@
+com/api/filters/LoggingFilters.class
+com/api/models/response/AddProductResponse.class
+com/api/listeners/TestListener.class
+com/api/tests/AddProductAPITest.class
+com/api/base/AuthService.class
+com/api/tests/LoginAPITest_1.class
+com/api/tests/LoginApiTest.class
+com/api/base/BaseService.class
+com/api/models/requests/AddProductRequest.class
+com/api/base/ProductService.class
+com/api/models/requests/LoginRequest.class
+com/api/models/response/LoginResponse.class
